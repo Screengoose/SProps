@@ -4,13 +4,35 @@
 .bar-stable.bar.bar-header.disable-user-behavior {
   background: #fb1b1c;
   font-family: 'PT Sans', sans-serif;
-  color: white;
 }
 
 .title.title-center.header-item{
   color: white;
+  font-weight: bold;
 }
 
 .button.button-icon.button-clear.ion-navicon{
   color: white;
+}
+
+
+/*----- HOME -----*/
+.title{
+  font-family: 'PT Sans', sans-serif;
+  color: #777777;
+
+}
+
+h2.title{
+  text-align: left !important;
+  font-size: 16px !important;
+}
+
+.header-margin{
+  margin-top: 43px;
+}
+
+.home-background{
+  width: 100%;
+  background: 
 }

@@ -35,12 +35,16 @@ angular.module('starter.controllers', [])
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'One Island East, Office',
+      id: 1,
+      location: "Taikoo, Hong Kong",
+      img: "https://lh4.googleusercontent.com/KFtGkcTsfzFPg12PPZn-ffq1ke0eAkVrPyTQxQuz1Kmg9Gxxfo63KgkuLEMnICOBcp4Fpg=w2560-h1320"},
+    { title: 'Pacific Place Tower 2, Office',
+      id: 2,
+      location: "Admiralty, Hong Kong"},
+    { title: 'Cityplaza Four, Office',
+      id: 3,
+      location: "Quarry Bay, Hong Kong"}
   ];
 })
 
