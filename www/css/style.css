@@ -1,0 +1,16 @@
+/* Empty. Add your own CSS if you like */
+
+/*----- NAV -----*/
+.bar-stable.bar.bar-header.disable-user-behavior {
+  background: #fb1b1c;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+}
+
+.title.title-center.header-item{
+  color: white;
+}
+
+.button.button-icon.button-clear.ion-navicon{
+  color: white;
+}
