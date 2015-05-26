@@ -1,4 +1,4 @@
-<ion-view view-title="Playlists">
+<ion-view view-title="Home">
   <div class="bar bar-subheader">
     <h2 class="title">FEATURED PROPERTIES</h2>
   </div>
@@ -7,11 +7,14 @@
       </div>
       <ion-list>
         <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-          <!-- <img src="{{playlist.img}}" class="home-background"> -->
-          <div class="home-background">
-            {{playlist.title}}
-            <br>
-            {{playlist.location}}
+          <img src="{{playlist.img}}" class="home-background">
+          <div class="overlay-text">
+            <div class="overlay-text-title">
+              {{playlist.title}}
+            </div>
+            <div class="overlay-text-subtitle">
+              {{playlist.location}}
+            </div>
           </div>
         </ion-item>
       </ion-list>

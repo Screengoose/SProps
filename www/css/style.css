@@ -26,13 +26,33 @@
 h2.title{
   text-align: left !important;
   font-size: 16px !important;
+  margin-left: 16px !important;
 }
 
 .header-margin{
-  margin-top: 43px;
+  padding-top: 43px;
 }
 
 .home-background{
-  width: 100%;
-  background: 
+  width: 120%;
+  margin: -16px;
+}
+
+/*.item-content{
+  padding-right: 0px !important;
+}*/
+
+.overlay-text{
+  color: white;
+  margin: -155px 0 105px 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.overlay-text-title{
+  font-weight: bold;
+}
+
+.overlay-text-subtitle{
+  font-size: 14px;
+  margin-top: 3px;
 }
