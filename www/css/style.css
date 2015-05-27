@@ -16,11 +16,16 @@
 }
 
 
+/*----- MENU -----*/
+h1.title{
+  color: white !important;
+}
+
+
 /*----- HOME -----*/
 .title{
   font-family: 'PT Sans', sans-serif;
   color: #777777;
-
 }
 
 h2.title{
@@ -38,13 +43,13 @@ h2.title{
   margin: -16px;
 }
 
-/*.item-content{
+.item-content{
   padding-right: 0px !important;
-}*/
+}
 
 .overlay-text{
   color: white;
-  margin: -155px 0 105px 0;
+  margin: -185px 0 0px 0;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -55,4 +60,20 @@ h2.title{
 .overlay-text-subtitle{
   font-size: 14px;
   margin-top: 3px;
+}
+
+.home-icon{
+  margin-top: 90px;
+}
+
+.vr, .heart, .view-property{
+  width: 25px;
+}
+
+.heart{
+  margin-left: 10px;
+}
+
+.view-property{
+  margin: 0 0 4px 240px;
 }
