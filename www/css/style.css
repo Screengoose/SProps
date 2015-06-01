@@ -88,6 +88,30 @@ h2.title{
   margin: 0 0 4px 240px;
 }
 
+@media screen and (min-width: 400px) {
+    .view-property{
+      margin: 0 0 4px 280px;
+    }
+
+    .overlay-text{
+      margin: -200px 0 0px 0;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .view-property{
+      margin: 0 0 4px 190px;
+    }
+
+    .overlay-text{
+      margin: -155px 0 0px 0;
+    }
+
+    .home-icon{
+      margin-top: 80px;
+    }
+}
+
 .up-down-arrow{
   text-align: right;
   margin: 8px 3px 0 0;
