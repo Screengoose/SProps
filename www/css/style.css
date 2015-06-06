@@ -26,6 +26,10 @@ h4, .title{
   font-weight: bold;
 }
 
+.title.title-left.header-item{
+  color: white;
+}
+
 .button.button-icon.button-clear.ion-navicon{
   color: white;
 }
@@ -126,19 +130,21 @@ h2.title{
   color: #777777;
 }
 
-
-/*----- HOME MEDIA QUERIES -----*/
-@media screen and (min-width: 400px) {
-    .view-property{
-      margin: 0 0 4px 280px;
-    }
-
-    .overlay-text{
-      margin: -200px 0 0px 0;
-    }
+.icon-green-tick{
+  margin: -85px -67px 0 0;
 }
 
-@media screen and (max-width: 365px) {
+.green-tick{
+  width: 20px;
+}
+
+.Displaytrue{
+  display: none;
+}
+
+
+/*----- HOME MEDIA QUERIES -----*/
+@media screen and (max-width: 350px) {
     .view-property{
       margin: 0 0 4px 190px;
     }
@@ -149,5 +155,29 @@ h2.title{
 
     .home-icon{
       margin-top: 80px;
+    }
+}
+
+@media screen (min-width: 359px) and (max-width: 369px) {
+    .view-property{
+      margin: 0 0 4px 190px;
+    }
+
+    .overlay-text{
+      margin: -375px 0 0px 0;
+    }
+
+    .home-icon{
+      margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .view-property{
+      margin: 0 0 4px 280px;
+    }
+
+    .overlay-text{
+      margin: -200px 0 0px 0;
     }
 }
