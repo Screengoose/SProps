@@ -17,6 +17,49 @@
     <h4 class="search-title">PROPERTY TYPE</h4>
 
     <div class="row">
+      <!-- <div class="col col-90"> -->
+        <div class="row">
+      <ion-item ng-repeat="searchIcon in searchIconsRow1">
+        <div class="col col-33 border" ng-click="clicked = ! clicked" ng-init="clicked = true">
+          <img src={{searchIcon.img}} class="search-icon">
+          <div class="under-icon-text">{{searchIcon.title}}</div>
+          <div class="Display{{clicked}}">
+            <div class="icon-green-tick"><img src="lib/icons/selected.png" class="green-tick"></div>
+          </div>
+        </div>
+      </ion-item>
+    <!-- </div> -->
+    </div>
+    </div>
+
+    <div class="row">
+      <ion-item ng-repeat="searchIcon in searchIconsRow2">
+        <div class="col border" ng-click="clicked = ! clicked" ng-init="clicked = true">
+          <img src={{searchIcon.img}} class="search-icon">
+          <div class="under-icon-text">{{searchIcon.title}}</div>
+          <div class="Display{{clicked}}">
+            <div class="icon-green-tick"><img src="lib/icons/selected.png" class="green-tick"></div>
+          </div>
+        </div>
+      </ion-item>
+    </div>
+
+    <div class="row">
+      <ion-item ng-repeat="searchIcon in searchIconsRow3">
+        <div class="col border" ng-click="clicked = ! clicked" ng-init="clicked = true">
+          <img src={{searchIcon.img}} class="search-icon">
+          <div class="under-icon-text">{{searchIcon.title}}</div>
+          <div class="Display{{clicked}}">
+            <div class="icon-green-tick"><img src="lib/icons/selected.png" class="green-tick"></div>
+          </div>
+        </div>
+      </ion-item>
+    </div>
+
+    <br>
+
+
+    <div class="row">
       <div class="col border" ng-click="clicked = ! clicked" ng-init="clicked = true">
         <img src="lib/icons/offices.png" class="search-icon">
         <div class="under-icon-text">Offices</div>
@@ -24,8 +67,12 @@
           <div class="icon-green-tick"><img src="lib/icons/selected.png" class="green-tick"></div>
         </div>
       </div>
-      <div class="col border"><img src="lib/icons/retail.png" class="search-icon">
+      <div class="col border" ng-click="clicked2 = ! clicked2" ng-init="clicked2 = true">
+        <img src="lib/icons/retail.png" class="search-icon">
         <div class="under-icon-text">Retail</div>
+        <div class="Display{{clicked2}}">
+          <div class="icon-green-tick"><img src="lib/icons/selected.png" class="green-tick"></div>
+        </div>
       </div>
       <div class="col border"><img src="lib/icons/residential.png" class="search-icon">
         <div class="under-icon-text">Residential</div>

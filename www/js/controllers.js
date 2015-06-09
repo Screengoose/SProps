@@ -71,5 +71,28 @@ angular.module('starter.controllers', [])
 })
 
 .controller('SearchCtrl', function($scope) {
-  console.log("here")
+  $scope.searchIconsRow1 = [
+    { title: 'Offices',
+      img: "lib/icons/offices.png"},
+    { title: 'Retail',
+      img: "lib/icons/retail.png"},
+    { title: 'Residential',
+      img: "lib/icons/residential.png"}
+  ];
+  $scope.searchIconsRow2 = [
+    { title: 'Hotel',
+      img: "lib/icons/hotels.png"},
+    { title: 'Co-working',
+      img: "lib/icons/coworking.png"},
+    { title: 'Showroom',
+      img: "lib/icons/showsuites.png"}
+  ];
+  $scope.searchIconsRow3 = [
+    { title: 'Event Space',
+      img: "lib/icons/event-space.png"},
+    { title: 'Land',
+      img: "lib/icons/land.png"},
+    { title: 'Industrial',
+      img: "lib/icons/industrial.png"}
+  ];
 })
